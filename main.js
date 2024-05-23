@@ -33,4 +33,20 @@ console.log("first fruit:", firstFruit);
 //Question#08
 //Add the element "kiwi" to the beginning of the fruits array using the method.
 fruits.unshift("kiwi");
+console.log("New Fruits:", fruits);
+//Question#09
+//Remove 2 elements from the fruits array starting from index 1 using the method.
+fruits.splice(1, 2);
 console.log("Fruits:", fruits);
+//Question#10
+//Insert the elements "pineapple" and "pear" at index 2 of the fruits array using the method.
+fruits.splice(2, 0, "pineapple", "pear");
+console.log("Inserted fruits:", fruits);
+//Question#11
+//Create a new array named citrusFruits that contains the first two elements of the fruits array using the method.
+var citrusFruits = fruits.slice(0, 2);
+console.log("Sliced fruits:", citrusFruits);
+//Question#12
+//Create a new array named lastTwoFruits that contains the last two elements of the fruits array using the method.
+var lastTwoFruits = fruits.slice(-2);
+console.log("last two fruits:", lastTwoFruits);
